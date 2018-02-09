@@ -14,3 +14,9 @@ Also verified looks good with...
 -CSS/less
 -Object Notation and .json
 -Haven't checked the rest because I don't care and nobody is paying me to do this.
+
+![alt text](./1.png)
+![alt text](./2.png)
+![alt text](./3.png)
+![alt text](./4.png)
+![alt text](./5.png)
