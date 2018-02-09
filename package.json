@@ -32,7 +32,7 @@
     "language",
     "support"
   ],
-  "repository": "https://github.com/atom/purple-rain",
+  "repository": "https://github.com/olafur-palsson/purple-rain",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
