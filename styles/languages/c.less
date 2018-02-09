@@ -1,0 +1,42 @@
+
+.syntax--source.syntax--c {
+
+    .syntax--constant {
+        &.syntax--numeric {
+            color: @teal !important;
+        }
+        &.syntax--other.syntax--placeholder {
+            color: @pinkyPurple;
+        }
+    }
+
+    .syntax--entity.syntax--name {
+        &.syntax--function.syntax--preprocessor {
+            color: @blue;
+        }
+    }
+
+    .syntax--keyword.syntax--control.syntax--directive.syntax--define {
+        color: @pinkyPurple;
+    }
+
+    .syntax--storage {
+        &.syntax--type {
+            color: @blueWait;
+        }
+    }
+
+    .syntax--support {
+        &.syntax--function {
+            color: @blueWait;
+        }
+        &.syntax--type.syntax--sys-types {
+            color: @teal;
+        }
+    }
+
+    .syntax--variable.syntax--other.syntax--member {
+        color: @teal;
+    }
+
+}

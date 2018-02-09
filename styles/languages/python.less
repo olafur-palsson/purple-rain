@@ -1,0 +1,55 @@
+// Python
+
+.syntax--source.syntax--python {
+
+    .syntax--entity.syntax--name.syntax--function {
+        color: @blueWait;
+    }
+
+    .syntax--keyword {
+        &.syntax--control.syntax--import {
+            color: @teal;
+            &.syntax--from {
+                color: @thinOrange;
+            }
+        }
+        &.syntax--operator {
+            &.syntax--comparison {
+                font-weight: bold;
+            }
+            &.syntax--logical {
+                color: @blueWait;
+            }
+        }
+        &.syntax--other {
+            color: @blueWait;
+        }
+    }
+
+    .syntax--meta {
+        &.syntax--function {
+            color: @thinOrange;
+        }
+    }
+
+    .syntax--support {
+        &.syntax--function.syntax--builtin {
+            color: @blue;
+        }
+    }
+
+    .syntax--storage.syntax--type.syntax--function {
+        color: @thinOrange;
+        font-weight: bold;
+    }
+
+    .syntax--variable {
+        color: @blueWait;
+        font-style: italic;
+        &.syntax--parameter {
+            color: @blue;
+            font-style: normal;
+        }
+    }
+
+}

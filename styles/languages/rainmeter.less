@@ -1,0 +1,42 @@
+// Rainmeter
+
+.syntax--source.syntax--rainmeter {
+    .syntax--option {
+        color: @blueWait;
+        &.syntax--include {
+            color: @thinOrange;
+            font-style: normal;
+        }
+    }
+    .syntax--predefined.syntax--section.syntax--rainmeter {
+        color: @teal;
+        font-size: 16px;
+    }
+    .syntax--predefined.syntax--variable.syntax--rainmeter {
+        color: @pinkyPurple;
+    }
+    .syntax--section {
+        color: @thinOrange;
+        &.syntax--variable {
+            color: @blue !important;
+        }
+    }
+    .syntax--support {
+        &.syntax--function {
+            color: @softGreen;
+            &.syntax--constant {
+                color: @pinkyPurple;
+            }
+        }
+    }
+    .syntax--value.syntax--constant {
+        color: @teal;
+        &.syntax--important {
+            color: @softGreen;
+            font-weight: normal;
+        }
+    }
+    .syntax--variable.syntax--rainmeter {
+        color: @blue;
+    }
+}

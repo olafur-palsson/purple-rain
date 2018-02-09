@@ -1,0 +1,33 @@
+// Lua
+
+.syntax--source.syntax--lua {
+    .syntax--keyword {
+        &.syntax--control {
+            color: @thinOrange;
+        }
+        &.syntax--operator {
+            color: @thinOrange;
+        }
+    }
+    .syntax--meta.syntax--function {
+        color: @pinkyPurple;
+    }
+    .syntax--entity.syntax--name.syntax--function {
+        color: @blue;
+    }
+    .syntax--support.syntax--function {
+		color: @blueWait;
+		&.syntax--any-method {
+			color: @blueWait;
+		}
+		&.syntax--library {
+        	color: @pinkyPurple;
+		}
+    }
+    .syntax--variable.syntax--other.syntax--lua {
+        color: @blue;
+    }
+    .syntax--variable.syntax--parameter.syntax--function {
+        color: @pinkyPurple;
+    }
+}

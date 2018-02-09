@@ -1,0 +1,47 @@
+// JSON
+
+.syntax--source.syntax--json {
+    .syntax--meta {
+        &.syntax--structure.syntax--dictionary {
+            color: @thinOrange;
+            &.syntax--value {
+                color: @blueWait;
+            }
+            & > .syntax--string.syntax--quoted {
+                & > .syntax--punctuation.syntax--string {
+                    color: @softGreen;
+                }
+                color: @thinOrange;
+            }
+        }
+
+        &.syntax--structure.syntax--dictionary.syntax--json, &.syntax--structure.syntax--array.syntax--json {
+            & > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json,
+            & > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation {
+                color: @syntax-text-color;
+            }
+
+            & > .syntax--constant.syntax--language.syntax--json {
+                color: @parenthesis1;
+            }
+        }
+    }
+
+    .syntax--punctuation {
+        &.syntax--definition.syntax--array {
+            color: @parenthesis1;
+        }
+        &.syntax--definition.syntax--dictionary {
+            color: @syntax-text-color;
+        }
+        &.syntax--separator.syntax--dictionary.syntax--key-value {
+        color: @blueWait;
+        }
+    }
+
+    .syntax--string {
+        &.syntax--quoted.syntax--double {
+            color: @teal;
+        }
+    }
+}

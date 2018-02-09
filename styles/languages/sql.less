@@ -1,0 +1,34 @@
+// SQL
+
+.syntax--source.syntax--sql {
+
+	.syntax--constant.syntax--other {
+		&.syntax--database-name {
+			color: @teal;
+		}
+		&.syntax--table-name {
+			color: @blue;
+		}
+	}
+
+	.syntax--keyword {
+		&.syntax--operator.syntax--comparison {
+			font-weight: bold;
+		}
+		&.syntax--other {
+			&.syntax--case {
+				color: @pinkyPurple;
+			}
+			&.syntax--DML {
+				color: @blue;
+				&.syntax--II {
+					color: @thinOrange;
+				}
+			}
+			&.syntax--LUW {
+				color: @pinkyPurple;
+			}
+		}
+	}
+
+}

@@ -1,0 +1,119 @@
+// CSS
+
+.syntax--css {
+	.syntax--constant.syntax--support.syntax--property-value {
+		color: @pinkyPurple !important;
+	}
+
+	.syntax--entity {
+    	&.syntax--name.syntax--tag {
+        	color: @blue;
+    	}
+
+    	&.syntax--other.syntax--attribute-name {
+        	font-weight: normal !important;
+        	&.syntax--class {
+            	color: @thinOrange;
+            	&.syntax--mixin {
+                	color: @blue;
+            	}
+        	}
+        	&.syntax--id {
+            	color: @thinOrange;
+            	font-weight: bold;
+        	}
+        	&.syntax--parent-selector {
+            	color: @teal;
+        	}
+			&.syntax--pseudo-class {
+            	color: @pinkyPurple;
+        	}
+        	&.syntax--pseudo-element {
+            	color: @teal;
+        	}
+    	}
+	}
+
+	.syntax--constant {
+		color: @pinkyPurple !important;
+	}
+
+	.syntax--keyword {
+		&.syntax--control {
+			color: @thinOrange;
+			&.syntax--logical.syntax--operator {
+				color: @blueWait;
+			}
+		}
+		&&.syntax--other {
+			&.syntax--important {
+				color: @red;
+				font-weight: bold;
+			}
+		}
+	}
+
+	.syntax--meta {
+	    .syntax--at-rule.syntax--import {
+	        color: @pinkyPurple;
+	    }
+	    .syntax--property-list {
+	        color: @pinkyPurple;
+	    }
+
+			.syntax--constant.syntax--property-value {
+				color: @pinkyPurple !important;
+			}
+	}
+
+	.syntax--punctuation {
+	    &.syntax--section {
+	        color: @syntax-text-color;
+	    }
+		&.syntax--definition {
+			&.syntax--entity {
+	        	color: @blueWait;
+			}
+			&.syntax--keyword {
+				color: @thinOrange;
+			}
+		}
+	    &.syntax--separator.syntax--key-value {
+	        color: @blueWait;
+	    }
+	}
+
+	.syntax--support {
+	    &.syntax--function.syntax--any-method.syntax--builtin {
+	        color: @blue;
+	    }
+	    &.syntax--type.syntax--property-name {
+	        color: @syntax-text-color;
+	    }
+	}
+
+	.syntax--variable {
+	    &.syntax--parameter.syntax--misc {
+	        color: @blueWait;
+	    }
+	}
+}
+
+
+.syntax--keyword.syntax--control {
+    &.syntax--at-rule.syntax--import.syntax--less {
+        color: @teal;
+    }
+}
+
+.syntax--punctuation {
+    &.syntax--definition.syntax--keyword.syntax--less {
+        color: @pinkyPurple;
+    }
+}
+
+.syntax--support {
+    &.syntax--function.syntax--any-method.syntax--builtin.syntax--less {
+        color: @thinOrange;
+    }
+}

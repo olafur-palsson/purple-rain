@@ -1,0 +1,34 @@
+// XML
+
+.syntax--source.syntax--xml {
+
+	.syntax--entity {
+		&.syntax--other {
+			&.syntax--attribute-name {
+				color: @blueWait;
+			}
+		}
+		&.syntax--tag.syntax--name {
+			color: @thinOrange;
+			&.syntax--localname {
+				color: @teal;
+			}
+		}
+	}
+
+	.syntax--meta.syntax--tag {
+		color: @teal;
+		&.syntax--preprocessor {
+			color: @thinOrange;
+		}
+	}
+
+	.syntax--punctuation.syntax--definition.syntax--tag {
+		color: @blue;
+	}
+}
+
+
+.syntax--entity.syntax--name.syntax--tag.syntax--localname.syntax--xml {
+	color: @thinOrange;
+}

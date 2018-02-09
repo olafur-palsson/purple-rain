@@ -1,0 +1,65 @@
+// C#
+
+.syntax--source.syntax--cs {
+
+    .syntax--constant.syntax--character.syntax--escape {
+        color: @teal;
+    }
+
+    .syntax--entity.syntax--name.syntax--type {
+        &.syntax--class {
+            color: @blue;
+        }
+        &.syntax--namespace {
+            color: @blueWait;
+            font-weight: normal;
+        }
+    }
+
+    .syntax--meta {
+        color: @syntax-text-color;
+        &.syntax--class {
+            color: @syntax-text-color;
+        }
+        &.syntax--method {
+            color: @blue;
+            &.syntax--body {
+                color: @syntax-text-color;
+            }
+            &.syntax--identifier {
+                color: @pinkyPurple;
+            }
+        }
+        &.syntax--method-call {
+            color: @blueWait;
+        }
+        &.syntax--namespace {
+            color: @blue;
+
+            &.syntax--body {
+                color: @syntax-text-color;
+            }
+        }
+    }
+
+    .syntax--punctuation {
+        &.syntax--definition {
+            color: @syntax-text-color;
+            &.syntax--comment {
+                color: @lighter-gray;
+            }
+            &.syntax--string {
+                color: @softGreen;
+            }
+        }
+        &.syntax--section {
+            color: @syntax-text-color;
+        }
+    }
+
+    .syntax--variable {
+        &.syntax--parameter.syntax--function {
+            color: @pinkyPurple;
+        }
+    }
+}

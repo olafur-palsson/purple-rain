@@ -1,0 +1,113 @@
+// C++
+
+.syntax--source.syntax--cpp {
+
+    .syntax--entity.syntax--name {
+        &.syntax--function {
+            color: @blue;
+            &.syntax--preprocessor {
+                color: @syntax-text-color;
+            }
+        }
+        &.syntax--type {
+            color: @blue;
+            font-weight: normal !important;
+        }
+    }
+
+    .syntax--keyword {
+		&.syntax--control.syntax--directive {
+			color: @thinOrange;
+		}
+		&.syntax--operator {
+	        color: @thinOrange;
+	        &.syntax--bitwise.syntax--shift {
+	            font-weight: 900;
+	        }
+		}
+    }
+
+    .syntax--meta {
+        &.syntax--block {
+            color: @syntax-text-color;
+        }
+		&.syntax--class-struct-block {
+			color: @syntax-text-color;
+		}
+        &.syntax--function {
+            color: @syntax-text-color;
+        }
+        &.syntax--parens {
+            color: @pinkyPurple;
+        }
+		&.syntax--preprocessor {
+			color: @syntax-text-color;
+		}
+		&.syntax--using-namespace-declaration {
+			color: @syntax-text-color;
+		}
+    }
+
+    .syntax--punctuation {
+        color: @syntax-text-color;
+		&.syntax--definition {
+			&.syntax--comment {
+				color: darken(@lighter-gray, 8%);
+			}
+            &.syntax--directive {
+			    color: @teal;
+            }
+            &.syntax--string {
+                color: @softGreen;
+            }
+		}
+        &.syntax--section.syntax--parens {
+            color: @syntax-text-color;
+        }
+    }
+
+    .syntax--storage {
+        &.syntax--type {
+            color: @blueWait;
+            &.syntax--class {
+	            color: @thinOrange;
+			}
+        }
+    }
+
+    .syntax--support {
+        &.syntax--function.syntax--any-method {
+            color: @blueWait;
+        }
+    }
+
+}
+
+
+
+// Makefile
+.syntax--source.syntax--makefile {
+
+	.syntax--entity.syntax--name.syntax--function.syntax--target {
+		color: @thinOrange;
+		font-weight: bold;
+	}
+
+    .syntax--meta.syntax--scope {
+        &.syntax--prerequisites {
+    	    color: @blueWait;
+        }
+		&.syntax--recipe {
+			color: @syntax-text-color;
+			font-weight: light;
+		}
+        &.syntax--target {
+            color: @pinkyPurple;
+        }
+    }
+
+    .syntax--punctuation.syntax--separator.syntax--key-value {
+        color: @teal;
+    }
+
+}

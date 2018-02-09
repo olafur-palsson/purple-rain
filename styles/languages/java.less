@@ -1,0 +1,36 @@
+// Java
+
+.syntax--source.syntax--java {
+
+    .syntax--entity.syntax--name.syntax--function {
+        color: @blue;
+    }
+
+    .syntax--storage {
+        &.syntax--modifier.syntax--import {
+            color: @pinkyPurple;
+        }
+
+        &.syntax--type {
+            color: @blueWait;
+        }
+    }
+
+    .syntax--variable {
+        &.syntax--language.syntax--wildcard {
+            color: @teal;
+        }
+        &.syntax--other.syntax--object {
+            color: @blueWait;
+            &.syntax--property {
+                color: @syntax-text-color;
+            }
+        }
+    }
+}
+
+.syntax--source.syntax--java-properties {
+    .syntax--meta.syntax--key-pair {
+      color: @thinOrange;
+    }
+}

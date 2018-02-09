@@ -1,0 +1,44 @@
+.syntax--syntax--source.syntax--syntax--objc {
+
+    .syntax--entity.syntax--name {
+        &.syntax--type {
+            color: @blue;
+        }
+    }
+
+    .syntax--meta {
+        &.syntax--function-with-body {
+            color: @teal;
+        }
+        &.syntax--return-type {
+            color: @pinkyPurple;
+        }
+    }
+
+    .syntax--punctuation {
+        &.syntax--section.syntax--scope {
+            color: @syntax-text-color;
+        }
+        &.syntax--separator.syntax--arguments {
+            color: @thinOrange !important;
+        }
+    }
+
+    .syntax--storage {
+        &.syntax--type {
+            color: @blueWait;
+        }
+    }
+
+    .syntax--support {
+        &.syntax--class.syntax--cocoa {
+            color: @blueWait;
+        }
+        &.syntax--function.syntax--any-method {
+            color: @blueWait;
+            &.syntax--name-of-parameter {
+                color: @pinkyPurple !important;
+            }
+        }
+    }
+}

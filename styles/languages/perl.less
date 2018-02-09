@@ -1,0 +1,44 @@
+// Perl
+.syntax--source.syntax--perl {
+    .syntax--punctuation.syntax--definition {
+        &.syntax--variable {
+            color: @blueWait;
+        }
+    }
+
+    .syntax--constant.syntax--character.syntax--escape {
+        color: @teal;
+    }
+
+    .syntax--keyword {
+        &.syntax--control{
+            color: @thinOrange;
+            &.syntax--regexp-option {
+                color: @blue;
+                font-style: italic;
+            }
+        }
+    }
+
+    .syntax--punctuation.syntax--definition {
+        &.syntax--variable {
+            color: @teal;
+        }
+    }
+
+
+    .syntax--string.syntax--regexp {
+        color: @pinkyPurple;
+    }
+
+    .syntax--support.syntax--function {
+        color: @blue;
+    }
+
+    .syntax--keyword {
+        &.syntax--control.syntax--regexp-option {
+            color: @blue;
+            font-style: italic;
+        }
+    }
+}

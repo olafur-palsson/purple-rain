@@ -1,0 +1,62 @@
+// Javascript
+
+.syntax--source.syntax--js {
+    .syntax--constant {
+        &.syntax--character.syntax--escape {
+            color: @teal;
+        }
+        &.syntax--other.syntax--character-class.syntax--set.syntax--regexp {
+            color: @teal;
+        }
+    }
+
+    .syntax--entity {
+      &.syntax--name.syntax--class {
+        color: @pinkyPurple;
+      }
+    }
+
+
+    .syntax--meta {
+        &.syntax--arguments {
+            color: @syntax-text-color;
+        }
+        &.syntax--delimiter {
+            color: @syntax-text-color;
+        }
+        &.syntax--function {
+            color: @blue;
+        }
+        &.syntax--function-call {
+            color: @parenthesis1;
+        }
+        &.syntax--method-call {
+            color: @parenthesis2;
+        }
+        &.syntax--parameter {
+            color: @pinkyPurple;
+        }
+    }
+
+    .syntax--support {
+        &.syntax--function {
+            color: @blueWait;
+        }
+        &.syntax--variable {
+            color: @blueWait;
+        }
+    }
+
+    .syntax--string.syntax--regexp {
+        color: @teal;
+    }
+
+    .syntax--variable {
+        &.syntax--language {
+            color: @pinkyPurple;
+        }
+        &.syntax--parameter.syntax--function {
+            color: @pinkyPurple;
+        }
+    }
+}
