@@ -1,7 +1,7 @@
 {
   "name": "purple-rain",
   "theme": "syntax",
-  "version": "0.4.7",
+  "version": "0.4.8",
   "description": "Relaxing colors, high contrast, works w. redshift 😎. Uses the foundation of atomic-monokai with a couple of fixes.",
   "keywords": [
     "f.lux",
