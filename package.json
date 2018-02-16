@@ -2,7 +2,7 @@
   "name": "purple-rain",
   "theme": "syntax",
   "version": "0.4.7",
-  "description": "Relaxing colors & high contrast. Works w. redshift 😎. Uses the foundation of atomic-monokai with a couple of fixes.",
+  "description": "Relaxing colors, high contrast, works w. redshift 😎. Uses the foundation of atomic-monokai with a couple of fixes.",
   "keywords": [
     "f.lux",
     "soft",
