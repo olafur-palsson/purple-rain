@@ -1,5 +1,5 @@
 :poop:
-![alt text](./redshift.png)
+![alt text](./upadate.png)
 
 # Still contrasts while redshifted
 I.e. it works with f.lux.
@@ -20,7 +20,6 @@ Also verified looks good with...
 2. String green and Integer teal now contrast a little more.
 3. Embed color (blue-purple #9580FF) -> (green #31E31E).
 
-![alt text](./update.png)
 ![alt text](./2.png)
 ![alt text](./3.png)
 ![alt text](./4.png)
