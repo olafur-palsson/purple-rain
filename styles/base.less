@@ -334,12 +334,32 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
     }
 }
 
+.syntax--regexp.syntax--punctuation {
+    color: @parenthesis1;
+}
+
+.syntax--regexp {
+    color: @teal;
+
+    &.syntax--control.syntax--anchor {
+      color: @blueWait;
+    }
+
+    &.syntax--operator {
+      color: @thinOrange;
+    }
+
+    & .syntax--definition {
+      &.syntax--begin, &.syntax--end {
+        color: @jsxPurple !important;
+      }
+    }
+
+}
 
 .syntax--string {
     color: @softGreen;
-    &.syntax--regexp {
-        color: @teal;
-    }
+
     &.syntax--other.syntax--link {
         color: @red;
     }
