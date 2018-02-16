@@ -1,5 +1,5 @@
 :poop:
-![alt text](./upadate.png)
+![alt text](./update.png)
 
 # Still contrasts while redshifted
 I.e. it works with f.lux.
