@@ -15,7 +15,11 @@ Also verified looks good with...
 -Object Notation and .json
 -Haven't checked the rest because I don't care and nobody is paying me to do this.
 
-## Features!!! 16.2.18:
+## Features!!!
+#### next
+1. JS > Template Literals > Embedded variables --> colored to embed-green
+
+#### 16.2.18:
 1. PROPER REGEX (it's actually readable now to people who know it, lol).
 2. String green and Integer teal now contrast a little more.
 3. Embed color (blue-purple #9580FF) -> (green #31E31E).
