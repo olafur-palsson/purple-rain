@@ -1,7 +1,7 @@
 {
   "name": "purple-rain",
   "theme": "syntax",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Wide color range, high contrast with most from magenta to teal. Uses the backbone of atomic monokai with a couple of fixes for React/JSX but the colors are completely different (I thought the 'atomic-green' looked kinda ugly IMO).",
   "keywords": [
     "magenta",
