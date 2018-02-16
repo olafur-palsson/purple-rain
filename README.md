@@ -16,13 +16,12 @@ Also verified looks good with...
 -Haven't checked the rest because I don't care and nobody is paying me to do this.
 
 ## Features!!!
-#### next
-1. JS > Template Literals > Embedded variables --> colored to embed-green
 
 #### 16.2.18:
 1. PROPER REGEX (it's actually readable now to people who know it, lol).
 2. String green and Integer teal now contrast a little more.
 3. Embed color (blue-purple #9580FF) -> (green #31E31E).
+4. JS > Template Literals > Embedded variables --> colored to embed-green
 
 ![alt text](./2.png)
 ![alt text](./3.png)
